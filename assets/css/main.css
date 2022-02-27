@@ -4025,7 +4025,7 @@ body.is-mobile #main > header {
 #footer .copyright li a:hover {
   color: #fff;
 }
-
+///powód do commita
 @media screen and (max-width: 480px) {
   #footer .copyright li {
     border: 0;

@@ -162,7 +162,6 @@ textarea {
 
 /* Basic */
 
-
 @-ms-viewport {
   width: device-width;
 }
@@ -7398,9 +7397,15 @@ body.is-menu-visible #menu {
 #header.alt h1 {
   pointer-events: none;
   opacity: 0;
+
 }
 
-/* Banner */
+.box > :last-child,
+.box > :last-child > :last-child,
+.box > :last-child > :last-child > :last-child {
+  margin-bottom: 0;
+}
+
 
 #banner {
   display: -moz-flex;
@@ -8040,5 +8045,4 @@ body.is-mobile.landing #footer {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-
 
